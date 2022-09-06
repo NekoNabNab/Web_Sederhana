@@ -1,0 +1,86 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+body{
+    background-color: #FAFBFC;
+}
+
+.acaraHeader{
+    position: absolute;
+    width: 418px;
+    height: 40px;
+    left: 511px;
+    top: 2609px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    font-variant: small-caps;
+
+    color: #252525;
+}
+.acaraSub{
+    position: absolute;
+    width: 856px;
+    height: 40px;
+    left: 292px;
+    top: 2669px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: rgba(37, 37, 37, 0.5);
+}
+
+.acara1{
+    position: absolute;
+    width: 127.48px;
+    height: 224px;
+    left: 202px;
+    top: 2796px;
+}
+.acara2{
+    position: absolute;
+    width: 127.48px;
+    height: 192px;
+    left: 434px;
+    top: 2796px;
+
+}
+.acara3{
+    position: absolute;
+    width: 137px;
+    height: 225px;
+    left: 661px;
+    top: 2795px;
+}
+.acara4{
+    position: absolute;
+    width: 142px;
+    height: 225px;
+    left: 891px;
+    top: 2795px;
+}
+.acara5{
+    position: absolute;
+    width: 158px;
+    height: 257.43px;
+    left: 1115px;
+    top: 2795px;
+}

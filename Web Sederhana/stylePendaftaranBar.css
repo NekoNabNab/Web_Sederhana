@@ -1,0 +1,34 @@
+.pendaftaranHeader{
+    position: absolute;
+    width: 418px;
+    height: 40px;
+    left: 511px;
+    top: 3365px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: center;
+    font-variant: small-caps;
+
+    color: #252525;
+}
+
+.pendaftaranAnggota{
+    position: absolute;
+    width: 152px;
+    height: 230px;
+    left: 426px;
+    top: 3524px;
+}
+.pendaftaranPengajar{
+    position: absolute;
+    width: 165px;
+    height: 230.43px;
+    left: 856px;
+    top: 3524px;
+}

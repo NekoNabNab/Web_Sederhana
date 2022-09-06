@@ -1,0 +1,66 @@
+.imgProfil{
+    position: absolute;
+    width: 466px;
+    height: 221px;
+    left: 487px;
+    top: 861px;
+}
+.decsMetic{
+    position: absolute;
+    width: 856px;
+    height: 120px;
+    left: 292px;
+    top: 1102px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: rgba(37, 37, 37, 0.5);
+}
+.kelasHeader{
+    position: absolute;
+    width: 418px;
+    height: 40px;
+    left: 511px;
+    top: 1277px;
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    font-variant: small-caps;
+
+    color: #252525;
+}
+.kelas1{
+    position: absolute;
+    width: 151px;
+    height: 225px;
+    left: 191px;
+    top: 1337px;
+}
+.kelas2{
+    position: absolute;
+    width: 151px;
+    height: 225px;
+    left: 426px;
+    top: 1337px;
+}
+.kelas3{
+    position: absolute;
+    width: 128.43px;
+    height: 225px;
+    left: 666px;
+    top: 1337px;
+}
+.kelas4{
+    position: absolute;
+    width: 129px;
+    height: 193px;
+    left: 898px;
+    top: 1337px;
+}
+.kelas5{
+    position: absolute;
+    width: 128.43px;
+    height: 193px;
+    left: 1130px;
+    top: 1337px;
+}

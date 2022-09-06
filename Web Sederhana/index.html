@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebMetic</title>
+    <link rel="stylesheet" href="responsive.css">
+</head>
+    <body>
+        <!-- Bar Atas -->
+        <nav>
+            <div class="bar">
+                <link rel="stylesheet" href="styleNav.css">
+                <div class="bgBar">
+                    <div class="logo"><img src="Metic.png"></div>
+                    <div class="menu">
+                            <button class="beranda"><a href="#berandaTap">Beranda</a></button>
+                            <button class="profil"><a href="#profilTap">Profil</a></button>
+                            <button class="karya"><a href="#karyaTap">Karya</a></button>
+                            <button class="acara"><a href="#acaraTap">Acara</a></button>
+                            <button class="pendaftaran"><a href="#pendaftaranTap">Pendaftaran</a></button>
+                    </div>
+                    <div class="sosmed">
+                        <a href="https://www.instagram.com/meticmoklet/"><img class="igBar" src="InstagramMedsos.png"></a>
+                        <a href="https://www.linkedin.com/company/metic-moklet/"><img class="ldBar" src="LinkedInMedsos.png"></a>
+                        <a href="https://www.youtube.com/c/smktelkommalang"><img class="ytBar" src="YouTubeMedsos.png"></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Beranda -->
+        <div class="berandaPage">
+            <link rel="stylesheet" href="styleBerandaBar.css">
+            <div>
+                <img id="berandaTap" class="imgBar" src="HomeIllustration.png">
+                <div class="kolom">
+                    <p class="deskripsi">                    
+                        Selamat Datang di Website
+                        Metic Moklet!
+                    </p>
+                    <div class="borderLoginPengurus"></div>
+                    <li class="loginPengurus"><a onclick = "loginPengurus()">Login Pengurus</a></li>
+                    <script>
+                        function loginPengurus() {
+                            var daftarP = prompt("Masukkan Username")
+                            if(daftarP === ''){
+                                alert("Tidak boleh kosong")
+                            }
+                            else{
+                                var password=prompt ("Masukkan password")
+                                if(password == "metic"){
+                                    alert("login berhasil")
+                                    window.location = "halamanPengurus.html"
+                                }
+                                else{
+                                    alert("login gagal")
+                                }
+                            }  
+                        }      
+                    </script>
+
+                    <div class="borderDaftar"></div>
+                    <li class="daftarHome"><a onclick = "myConfirm()">Mulai</a></li>
+                    <script>
+                            function myConfirm() {
+                                var konfirm = alert("Apakah anda yakin ingin menjelahahi?");
+                                if (konfirm) {
+                                }
+                                else {
+                                    window.location.href=("#profilTap")
+                                }
+                            }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Profil -->
+        <div class="profilPage">
+            <link rel="stylesheet" href="styleProfilBar.css">
+            <div>
+                <img id="profilTap" class="imgProfil" src="Metic 2.png">
+                <div align="center" class="decsMetic">
+                    <p>METIC merupakan sub organisasi berbasis IT yang ada di SMK Telkom</p>
+                    <p>Malang. Pada sub organisasi ini kamu akan diajari mulai dari mengoding,</p> 
+                    <p>desain, membuat game, membuat website, dan lain-lain.</p>
+                </div>
+                <div  align="center" class="kelasHeader">Kelas-Kelas Metic</div>
+                <div class="imgKelas">
+                    <img class="kelas1" src="1Kelas.png">
+                    <img class="kelas2" src="2Kelas.png">
+                    <img class="kelas3" src="3Kelas.png">
+                    <img class="kelas4" src="4Kelas.png">
+                    <img class="kelas5" src="5Kelas.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Karya -->
+        <div class="karyaPage">
+            <link rel="stylesheet" href="styleKaryaBar.css">
+            <div>
+                <p id="karyaTap" class="karyaHeader" align="center">Karya</p>
+                <p class="karyaSub" align="center">Berikut merupakan kumpulan karya dari anggota Metic</p>
+                <p class="kategori">Kategori kelas</p>
+                <p class="lineKat"></p>
+                <div class="pilihKategori">
+                    <p class="deskKategori"><a href="#desktop">Desktop Programming</a></p>
+                    <p class="webKategori"><a href="#web">Web Programming</a></li>
+                    <p class="graphicKategori"><a href="#graphic">Graphic Design</a></p>
+                    <p class="netKategori"><a href="#network">Networking</a></p>
+                    <p class="gameKategori"><a href="#gaming">Gaming</a></p>
+                </div>
+                <div class="imgKarya">
+                    <img class="karya1" src="1Karya.png">
+                    <img class="karya2" src="2Karya.png">
+                    <img class="karya3" src="3Karya.png">
+                    <img class="karya4" src="4Karya.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Acara -->
+        <div class="acaraPage">
+            <link rel="stylesheet" href="styleAcaraBar.css">
+            <div>
+                <p id="acaraTap" class="acaraHeader" align="center">Acara</p>
+                <p class="acaraSub" align="center">Berikut merupakan event-event yang diadakan di Metic</p>
+                <div class="imgAcara">
+                    <img class="acara1" src="1Event.png">
+                    <img class="acara2" src="2Event.png">
+                    <img class="acara5" src="3Event.png">
+                    <img class="acara3" src="4Event.png">
+                    <img class="acara4" src="5Event.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- Pendaftaran -->
+        <div class="pendaftaranPage">
+            <link rel="stylesheet" href="stylePendaftaranBar.css">
+            <div>
+                <p  id="pendaftaranTap" class="pendaftaranHeader" align="center">Pendaftaran</p>
+                <div class="imgPendaftaran">
+                    <a onclick = "Daftar()"><img class="pendaftaranAnggota" src="anggota.png"></a>
+                    <a href="https://sditalkarima-kkr.sch.id/wp-content/uploads/2020/08/closed-scaled.jpg"><img class="pendaftaranPengajar" src="pengajar.png">
+                        
+                        <li class="daftarHome"><a onclick = "myConfirm()">Mulai</a></li>
+                    <script>
+                            function Daftar() {
+                                var konfirm = confirm("Apakah anda yakin ingin mendaftar?");
+                                if (konfirm) {
+                                    window.location = "https://metic-form.herokuapp.com/";
+                                }
+                                else {
+                                    window.location.href=("#pendaftaranTap")
+                                }
+                            }
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Credit -->
+        <div class="creditPage">
+            <link rel="stylesheet" href="styleCreditBar.css">
+            <div>
+                <div class="bgCredit"></div>
+                <img class="meticCredit" src="metic 3.png">
+                <div class="headerCredit">
+                    <p class="hCredit1">Menu Utama</p>
+                    <p class="hCredit2">Kelas Metic</p>
+                    <p class="hCredit3">Social Media</p>
+                </div>
+                <div class="subHeadCredit">
+                    <p class="shCredit1" >
+                        Beranda 
+                        Profil 
+                        Karya 
+                        Acara
+                        Pendaftaran</p>
+                    <p class="shCredit2">
+                        Desktop Programming
+                        Web Programming
+                        Graphic Design
+                        Networking
+                        Gaming</p>
+                    <p class="shCredit3">
+                        meticmoklet.com
+                        Metic Moklet
+                        Metic Moklet
+                        meticmoklet</p>
+                </div>
+                <div class="logoSosmed">
+                    <a href="https://www.instagram.com/meticmoklet/"><img class="igMetic" src="CreditIg.png"></a>
+                    <a href="https://www.linkedin.com/company/metic-moklet/"><img class="liMetic" src="CreditLinkedIn.png"></a>
+                    <a href="https://www.youtube.com/c/smktelkommalang"><img class="ytMetic" src="CreditYt.png"></a>
+                    <a href="meticmoklet.com"><img class="webMetic" src="CreditMetic.png"></a>
+                </div>
+            </div>    
+        </div>
+    </body>
+</html>

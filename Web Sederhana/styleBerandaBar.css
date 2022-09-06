@@ -1,0 +1,79 @@
+.imgBar{
+    position: absolute;
+    width: 637px;
+    height: 370px;
+    left: 657px;
+    top: 170px;
+    filter: drop-shadow(10px 10px 30px rgba(0, 0, 0, 0.25));
+}
+.deskripsi{
+    position: absolute;
+    width: 455px;
+    height: 280px;
+    left: 115px;
+    top: 191px;
+
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px;
+
+    letter-spacing: 0.02em;
+
+    color: #252525;
+}
+.daftarHome{
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 160px;
+    top: 450px;
+    
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.borderDaftar{
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 120px;
+    top: 450px;
+    border: 2px solid rgba(37, 37, 37, 0.3);
+    background-color: rgb(255, 201, 201);
+    border-radius: 30px;
+}
+
+.loginPengurus{
+    position: absolute;
+    width: 120px;
+    height: 36px;
+    left: 290px;
+    top: 450px;
+    
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.borderLoginPengurus{
+    position: absolute;
+    width: 250px;
+    height: 36px;
+    left: 200px;
+    top: 450px;
+    border: 2px solid rgba(37, 37, 37, 0.3);
+    border-radius: 30px;
+}

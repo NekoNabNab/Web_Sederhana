@@ -1,0 +1,115 @@
+.bgCredit{
+    position: absolute;
+    width: 1440px;
+    height: 701px;
+    left: 0px;
+    top: 4159px;
+
+    background: #72262D;
+}
+
+.meticCredit{
+    position: absolute;
+    width: 394px;
+    height: 211px;
+    left: 53px;
+    top: 4455px;
+}
+
+.headerCredit{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.hCredit1{
+    position: absolute;
+    width: 154px;
+    height: 35px;
+    left: 511px;
+    top: 4445px;
+    color: #FFFFFF;
+}
+.hCredit2{
+    position: absolute;
+    width: 135px;
+    height: 35px;
+    left: 801px;
+    top: 4445px;
+    color: #FFFFFF;
+}
+.hCredit3{
+    position: absolute;
+    width: 175px;
+    height: 35px;
+    left: 1095px;
+    top: 4446px;
+    color: #FFFFFF;
+}
+
+.subHeadCredit{
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #DADADA;
+}
+.shCredit1{
+    position: absolute;
+    width: 106px;
+    height: 187px;
+    left: 511px;
+    top: 4500px;
+    color: #FFFFFF;
+}
+.shCredit2{
+    position: absolute;
+    width: 200px;
+    height: 187px;
+    left: 801px;
+    top: 4500px;
+    color: #FFFFFF;
+}
+.shCredit3{
+    position: absolute;
+    width: 153px;
+    height: 149px;
+    left: 1141px;
+    top: 4501px;
+    color: #FFFFFF;
+}
+
+.webMetic{
+    position: absolute;
+    width: 39px;
+    height: 36px;
+    left: 1090px;
+    top: 4497px;
+}
+.ytMetic{
+    position: absolute;
+    width: 26px;
+    height: 17.53px;
+    left: 1097px;
+    top: 4546.38px;
+}
+.liMetic{
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: 1097px;
+    top: 4582px;
+}
+.igMetic{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1097px;
+    top: 4624.14px;
+}
